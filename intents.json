@@ -1,0 +1,31 @@
+
+{"intents": [
+    {"tag": "greetings",
+    "patterns":    ["hello","hey","good day","greetings","what's up?","how is it going?","howdy"],
+    "responses": ["Hello!", "Hey","What can I do for you?"]
+},
+{"tag": "goodbye",
+"patterns":    ["cya","bye","see you later","I am leaving","have a good day","cao","see ya"],
+"responses": ["Sad to see you go :(","Hey","Talk to you later","Goodbye!"]
+},
+{"tag": "age",
+"patterns":    ["how old","how old are you","what is your age","how old is the chat bot?","what's up?","age?"],
+"responses": ["I am new", "Less than 1 year old!","I am brand new"]
+},
+{"tag": "name",
+"patterns":    ["what is your name","what should I call you","what's your name?","who are you","Can you tell me your name?"],
+"responses": ["My name is Gertrude.","Hi I'm Gertrude","You can call me Gertrude."]
+},
+{"tag": "games",
+"patterns":    ["What are your favorite games","Do you like to play games?","what kind of games do you like?","video games?","what games do you play?"],
+"responses": ["I play games survival games like Rust or Strategy games that play like DND", "I like playing a genre of games such as strategy games and survial PvE games"]
+},
+{"tag": "shop",
+"patterns":    ["Id like to buy something","what are your products?","what do you recommend?","what are you selling","do you have anything for sale?"],
+"responses": ["I do not but here are some places I shop from.<Links>", "I do not have anyting currently for sale but here are places I shop.<Link>","I don't have anything for sale right now but here are places I shop at.<Links>"]
+},
+{"tag": "outside",
+"patterns":    ["what is there to do?","I want to do something outside what is there to do?","Nice things to do outside?","what should I do outdoors today?","outdoors?","what to do outdoors","what can I do outside?"],
+"responses": ["In Denver you can go do the botanical gardens<link>", "You could go to Mewo Wolf<link>","There is a wonderful park in Downtown Denver called Cheeseman park you could go check out?"]
+    }
+]}
